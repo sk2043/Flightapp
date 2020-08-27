@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="flightpath.css" />
+		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&libraries=geometry"></script>
+		<script src="flightpath.js"></script>
+	</head>
+	<body>
+		<div class="controls">
+			<select id="from">
+				<option value="paris">Paris</option>
+				<option value="paris">Paris</option>
+				<option value="paris">Paris</option>
+				<option value="paris">Paris</option>
+				<option value="paris">Paris</option>
+			</select> To
+			<select id="to">
+				<option value="ambala">Ambala</option>
+				<option value="ambala">Ambala</option>
+				<option value="ambala">Ambala</option>
+				<option value="ambala">Ambala</option>
+				<option value="ambala">Ambala</option>
+			</select>
+			<button id="button" onclick="go();">Launch Rafale</button>
+		</div>
+		<div id="mapCanvas" class="map"></div>
+		<script type="text/javascript">loadMap();</script>
+	</body>
+</html>
